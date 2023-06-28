@@ -3,7 +3,8 @@ package com.umut.diceroller
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import android.widget.TextView
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class Dice(private val sideNumber: Int) {
@@ -15,27 +16,32 @@ class Dice(private val sideNumber: Int) {
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e("uguz", "Create 1")
+        Log.e("MainActivity", "Create 1")
         setContentView(R.layout.activity_main)
-        Log.e("uguz", "Create 2")
+        Log.e("MainActivity", "Create 2")
         val rollButton: Button = findViewById(R.id.button)
-        val resultTextView: TextView = findViewById(R.id.textView)
         rollButton.setOnClickListener {
-            resultTextView.text = rollDice()
+            rollDice()
         }
     }
 
-    private fun rollDice() = Dice(6).roll().toString()
-
-//    override fun onResume() {
-//        super.onResume()
-//        val rollButton: Button = findViewById(R.id.button)
-//        rollButton.setOnClickListener {
-//
-//            val resultTextView: TextView = findViewById(R.id.textView)
-//            resultTextView.text = rollDice()
-//        }
-//
-//    }
-
+    private fun rollDice() {
+        val diceImage: ImageView = findViewById(R.id.DiceImage)
+        val diceNumber = Dice(6).roll()
+        val drawableResource = when (diceNumber) {
+            1 -> R.drawable.dice_1
+            2 -> R.drawable.dice_2
+            3 -> R.drawable.dice_3
+            4 -> R.drawable.dice_4
+            5 -> R.drawable.dice_5
+            6 -> R.drawable.dice_6
+            else -> R.drawable.dice_1
+        }
+        diceImage.setImageResource(drawableResource)
+        diceImage.contentDescription = diceNumber.toString()
+        Toast.makeText(this,"The lucky number is: $diceNumber", Toast.LENGTH_SHORT).show()
+    }
 }
+
+
+

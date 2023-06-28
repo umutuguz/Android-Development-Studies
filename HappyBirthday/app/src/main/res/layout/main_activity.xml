@@ -11,23 +11,27 @@
         android:layout_height="0dp"
         android:importantForAccessibility="no"
         android:scaleType="centerCrop"
+        android:src="@drawable/birthdaycard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/birthdaycard" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="128dp"
-        android:layout_height="187dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="125dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="75dp"
         android:importantForAccessibility="no"
         android:scaleType="centerCrop"
+        android:src="@drawable/duyguu"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/duyguu" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
