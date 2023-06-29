@@ -21,5 +21,4 @@ class AffirmationsAdapterTests {
         assertEquals("ItemAdapter is not the correct size.", data.size, adapter.itemCount)
     }
 
-
 }

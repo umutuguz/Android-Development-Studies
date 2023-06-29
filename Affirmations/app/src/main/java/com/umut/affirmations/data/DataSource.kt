@@ -4,7 +4,6 @@ import com.umut.affirmations.R
 import com.umut.affirmations.model.Affirmation
 
 class DataSource {
-
     fun loadAffirmations(): List<Affirmation>{
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1, R.drawable.image1),
