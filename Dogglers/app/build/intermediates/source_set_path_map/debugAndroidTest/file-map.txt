@@ -1,0 +1,34 @@
+com.example.dogglers.test.app-jetified-viewpager2-1.0.0-0 C:\Users\umutu\.gradle\caches\transforms-3\049cf73a5965578f94cd53cb4b4ecaa8\transformed\jetified-viewpager2-1.0.0\res
+com.example.dogglers.test.app-jetified-lifecycle-process-2.6.1-1 C:\Users\umutu\.gradle\caches\transforms-3\0a940f50fcfe1c4d60c7c148fd846632\transformed\jetified-lifecycle-process-2.6.1\res
+com.example.dogglers.test.app-jetified-appcompat-resources-1.6.1-2 C:\Users\umutu\.gradle\caches\transforms-3\0c993f7a84ce7147972a1d8b5021f1da\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.dogglers.test.app-cardview-1.0.0-3 C:\Users\umutu\.gradle\caches\transforms-3\0f83c5d5bf7c6e76956157cb777fbf37\transformed\cardview-1.0.0\res
+com.example.dogglers.test.app-jetified-profileinstaller-1.3.0-4 C:\Users\umutu\.gradle\caches\transforms-3\14cd6dd0f73632372653e879069e1109\transformed\jetified-profileinstaller-1.3.0\res
+com.example.dogglers.test.app-jetified-core-ktx-1.10.1-5 C:\Users\umutu\.gradle\caches\transforms-3\1d7eda8e11599d78c00afdcc7eeb906f\transformed\jetified-core-ktx-1.10.1\res
+com.example.dogglers.test.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-6 C:\Users\umutu\.gradle\caches\transforms-3\2cfc6e043caa1ac48bd3c28a7dd4b7bd\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.dogglers.test.app-coordinatorlayout-1.1.0-7 C:\Users\umutu\.gradle\caches\transforms-3\38d09d4ba0d273158c68be2805b798b3\transformed\coordinatorlayout-1.1.0\res
+com.example.dogglers.test.app-fragment-1.6.0-8 C:\Users\umutu\.gradle\caches\transforms-3\3becbc6f115963e3ca43c5f5cd47ad51\transformed\fragment-1.6.0\res
+com.example.dogglers.test.app-recyclerview-1.1.0-9 C:\Users\umutu\.gradle\caches\transforms-3\52d740e8e970387c182bf237433c154a\transformed\recyclerview-1.1.0\res
+com.example.dogglers.test.app-lifecycle-livedata-2.6.1-10 C:\Users\umutu\.gradle\caches\transforms-3\5d4bd107c475562ce4cd214dba48f987\transformed\lifecycle-livedata-2.6.1\res
+com.example.dogglers.test.app-jetified-core-1.5.0-11 C:\Users\umutu\.gradle\caches\transforms-3\7ad9bb9e8d67f8541bbc2d18480c36f7\transformed\jetified-core-1.5.0\res
+com.example.dogglers.test.app-material-1.9.0-12 C:\Users\umutu\.gradle\caches\transforms-3\7c17ec530a582ee93364914402f6f204\transformed\material-1.9.0\res
+com.example.dogglers.test.app-lifecycle-viewmodel-2.6.1-13 C:\Users\umutu\.gradle\caches\transforms-3\81d0e238e278bb8c15249fc8a5c6b84c\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.dogglers.test.app-jetified-emoji2-1.2.0-14 C:\Users\umutu\.gradle\caches\transforms-3\8a0777f78bcfa47490aa03185cd86673\transformed\jetified-emoji2-1.2.0\res
+com.example.dogglers.test.app-lifecycle-runtime-2.6.1-15 C:\Users\umutu\.gradle\caches\transforms-3\8b3f49aaa9722a602c49ed29a0603b55\transformed\lifecycle-runtime-2.6.1\res
+com.example.dogglers.test.app-appcompat-1.6.1-16 C:\Users\umutu\.gradle\caches\transforms-3\8d9343f569df63b726615d18b45679d4\transformed\appcompat-1.6.1\res
+com.example.dogglers.test.app-core-runtime-2.2.0-17 C:\Users\umutu\.gradle\caches\transforms-3\914c174b7914e4c21b9a7bbe2ba91dda\transformed\core-runtime-2.2.0\res
+com.example.dogglers.test.app-jetified-activity-1.6.0-18 C:\Users\umutu\.gradle\caches\transforms-3\a9de7f1815b1db32d1996129cf3e7a91\transformed\jetified-activity-1.6.0\res
+com.example.dogglers.test.app-jetified-startup-runtime-1.1.1-19 C:\Users\umutu\.gradle\caches\transforms-3\ae856b81a8986a2ad442d3172f04319d\transformed\jetified-startup-runtime-1.1.1\res
+com.example.dogglers.test.app-espresso-contrib-3.5.1-20 C:\Users\umutu\.gradle\caches\transforms-3\b54bebfd1ce79b3be70c2f204e152ae0\transformed\espresso-contrib-3.5.1\res
+com.example.dogglers.test.app-jetified-emoji2-views-helper-1.2.0-21 C:\Users\umutu\.gradle\caches\transforms-3\ba536794b9d8e9efb32f25f611e78fd4\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.dogglers.test.app-jetified-savedstate-1.2.1-22 C:\Users\umutu\.gradle\caches\transforms-3\be0b9e3eb7d36c371d11f1c6da43abde\transformed\jetified-savedstate-1.2.1\res
+com.example.dogglers.test.app-jetified-annotation-experimental-1.3.0-23 C:\Users\umutu\.gradle\caches\transforms-3\d15244ba7a35fe180ae1116dac8e0689\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.dogglers.test.app-transition-1.2.0-24 C:\Users\umutu\.gradle\caches\transforms-3\d937372f4d1bea6dffbb3852bb38fc5f\transformed\transition-1.2.0\res
+com.example.dogglers.test.app-core-1.10.1-25 C:\Users\umutu\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\res
+com.example.dogglers.test.app-lifecycle-livedata-core-2.6.1-26 C:\Users\umutu\.gradle\caches\transforms-3\e53451fb6d491de5c3916fce09aafe15\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.dogglers.test.app-drawerlayout-1.1.1-27 C:\Users\umutu\.gradle\caches\transforms-3\ee697cd08c56d0500233d93c4fc892de\transformed\drawerlayout-1.1.1\res
+com.example.dogglers.test.app-constraintlayout-2.1.4-28 C:\Users\umutu\.gradle\caches\transforms-3\fe5722c2d28764b765710ac6c318c6e8\transformed\constraintlayout-2.1.4\res
+com.example.dogglers.test.app-androidTest-29 C:\Users\umutu\Desktop\Android Development Studies\Dogglers\app\build\generated\res\resValues\androidTest\debug
+com.example.dogglers.test.app-androidTest-30 C:\Users\umutu\Desktop\Android Development Studies\Dogglers\app\build\generated\res\rs\androidTest\debug
+com.example.dogglers.test.app-mergeDebugAndroidTestResources-31 C:\Users\umutu\Desktop\Android Development Studies\Dogglers\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.dogglers.test.app-mergeDebugAndroidTestResources-32 C:\Users\umutu\Desktop\Android Development Studies\Dogglers\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.dogglers.test.app-merged_res-33 C:\Users\umutu\Desktop\Android Development Studies\Dogglers\app\build\intermediates\merged_res\debugAndroidTest

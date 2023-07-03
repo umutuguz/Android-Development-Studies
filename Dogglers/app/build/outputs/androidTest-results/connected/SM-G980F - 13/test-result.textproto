@@ -1,0 +1,328 @@
+# 2023-06-30T13:45:21.438Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 6
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_button_is_displayed"
+    start_time {
+      seconds: 1688132712
+      nanos: 567000000
+    }
+    end_time {
+      seconds: 1688132713
+      nanos: 306000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\logcat-com.example.dogglers.ButtonTests-grid_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_horizontal_list_button_displays_horizontal_list"
+    start_time {
+      seconds: 1688132713
+      nanos: 703000000
+    }
+    end_time {
+      seconds: 1688132714
+      nanos: 947000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\logcat-com.example.dogglers.ButtonTests-clicking_horizontal_list_button_displays_horizontal_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_grid_list_button_displays_grid_list"
+    start_time {
+      seconds: 1688132715
+      nanos: 435000000
+    }
+    end_time {
+      seconds: 1688132716
+      nanos: 594000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\logcat-com.example.dogglers.ButtonTests-clicking_grid_list_button_displays_grid_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_vertical_list_button_displays_vertical_list"
+    start_time {
+      seconds: 1688132717
+      nanos: 81000000
+    }
+    end_time {
+      seconds: 1688132718
+      nanos: 758000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\logcat-com.example.dogglers.ButtonTests-clicking_vertical_list_button_displays_vertical_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_list_button_is_displayed"
+    start_time {
+      seconds: 1688132718
+      nanos: 784000000
+    }
+    end_time {
+      seconds: 1688132719
+      nanos: 327000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\logcat-com.example.dogglers.ButtonTests-horizontal_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_list_button_is_displayed"
+    start_time {
+      seconds: 1688132719
+      nanos: 843000000
+    }
+    end_time {
+      seconds: 1688132720
+      nanos: 486000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\logcat-com.example.dogglers.ButtonTests-vertical_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\umutu\\Desktop\\Android Development Studies\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G980F - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
