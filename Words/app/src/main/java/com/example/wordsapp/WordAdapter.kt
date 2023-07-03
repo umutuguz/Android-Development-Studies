@@ -26,6 +26,7 @@ import android.view.accessibility.AccessibilityNodeInfo
 import android.widget.Button
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
+import com.example.wordsapp.WordListFragment.Companion.SEARCH_PREFIX
 
 /**
  * Adapter for the [RecyclerView] in [DetailActivity].
@@ -43,7 +44,7 @@ class WordAdapter(private val letterId: String, context: Context) :
             // Returns items in a collection if the conditional clause is true,
             // in this case if an item starts with the given letter,
             // ignoring UPPERCASE or lowercase.
-            .filter { it.startsWith(letterId, ignoreCase = true) }
+            .filter { it.startsWith(letterId,  true) }
             // Returns a collection that it has shuffled in place
             .shuffled()
             // Returns the first n items as a [List]
@@ -84,7 +85,7 @@ class WordAdapter(private val letterId: String, context: Context) :
         // Set the text of the WordViewHolder
         holder.button.text = item
         holder.button.setOnClickListener {
-            val queryUrl: Uri = Uri.parse("${DetailActivity.SEARCH_PREFIX}${item}")
+            val queryUrl: Uri = Uri.parse("$SEARCH_PREFIX${item}")
             val intent = Intent(Intent.ACTION_VIEW, queryUrl)
             context.startActivity(intent)
         }
