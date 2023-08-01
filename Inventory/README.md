@@ -1,13 +1,13 @@
-Inventory - Starter Code
+Inventory - Solution Code
 ==================================
 
-Starter code for Android Basics in Kotlin.
+Intermediate version of the solution code for Android Basics in Kotlin.
+Codelab: Android Jetpack - Room.
 
 Introduction
 ------------
 
-This app is an stater code for an Inventory tracking app. Demos how to add, update, sell, and delete
- items from the local database.
+This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database. 
 This app demonstrated
 the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.  
 
