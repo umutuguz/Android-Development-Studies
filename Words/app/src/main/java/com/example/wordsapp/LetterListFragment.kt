@@ -9,13 +9,19 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.asLiveData
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.wordsapp.data.SettingsDataStore
 import com.example.wordsapp.databinding.FragmentLetterListBinding
+import kotlinx.coroutines.launch
 
 
 class LetterListFragment : Fragment() {
+
+    private lateinit var SettingsDataStore: SettingsDataStore
 
     private var _binding: FragmentLetterListBinding? = null
     private val binding get() = _binding!!
@@ -36,7 +42,13 @@ class LetterListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         recyclerView = binding.recyclerView
-        chooseLayout()
+
+        SettingsDataStore = SettingsDataStore(requireContext())
+        SettingsDataStore.preferenceFlow.asLiveData().observe(viewLifecycleOwner) {
+            isLinearLayoutManager = it
+            chooseLayout()
+            activity?.invalidateOptionsMenu()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -65,7 +77,6 @@ class LetterListFragment : Fragment() {
         if (menuItem == null) {
             return
         }
-
         menuItem.icon = if (isLinearLayoutManager) {
             ContextCompat.getDrawable(this.requireContext(), R.drawable.ic_linear_layout)
         } else {
@@ -78,6 +89,11 @@ class LetterListFragment : Fragment() {
         return when (item.itemId) {
             R.id.action_switch_layout -> {
                 isLinearLayoutManager = !isLinearLayoutManager
+
+                lifecycleScope.launch {
+                    SettingsDataStore.saveLayoutToPreferencesStore(isLinearLayoutManager, requireContext())
+                }
+
                 chooseLayout()
                 setIcon(item)
                 return true
