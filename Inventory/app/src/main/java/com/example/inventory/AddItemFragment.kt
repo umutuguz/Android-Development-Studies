@@ -123,7 +123,8 @@ class AddItemFragment : Fragment() {
                 item = it
                 bind(item)
             }
-        } else {
+        }
+        else {
             binding.saveAction.setOnClickListener {
                 addNewItem()
             }

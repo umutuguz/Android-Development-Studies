@@ -32,6 +32,7 @@ class ItemListAdapter(private val onItemClicked: (Item) -> Unit) :
 
     class ItemViewHolder(private var binding: ItemListItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
+
         fun bind(item: Item) {
             binding.apply {
                 itemName.text = item.itemName
@@ -42,6 +43,7 @@ class ItemListAdapter(private val onItemClicked: (Item) -> Unit) :
     }
 
     companion object {
+
         val DiffCallback = object : DiffUtil.ItemCallback<Item>() {
             override fun areItemsTheSame(oldItem: Item, newItem: Item): Boolean {
                 return oldItem == newItem

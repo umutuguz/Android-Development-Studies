@@ -54,7 +54,9 @@ class InventoryViewModel(private val itemDao: ItemDao) : ViewModel() {
     /**
      * Returns true if the EditTexts are not empty
      */
-    fun isEntryValid(itemName: String, itemPrice: String, itemCount: String): Boolean {
+    fun isEntryValid(
+        itemName: String, itemPrice: String, itemCount: String,
+    ): Boolean {
         if (itemName.isBlank() || itemPrice.isBlank() || itemCount.isBlank()) {
             return false
         }
@@ -102,7 +104,7 @@ class InventoryViewModel(private val itemDao: ItemDao) : ViewModel() {
     }
 
     private fun getUpdatedItemEntry(
-        itemId: Int, itemName: String, itemPrice: String, itemCount: String
+        itemId: Int, itemName: String, itemPrice: String, itemCount: String,
     ): Item {
         return Item(
             itemId, itemName, itemPrice.toDouble(), itemCount.toInt()
@@ -110,10 +112,9 @@ class InventoryViewModel(private val itemDao: ItemDao) : ViewModel() {
     }
 
     fun updateItem(
-        itemId: Int, itemName: String, itemPrice: String, itemCount: String
+        itemId: Int, itemName: String, itemPrice: String, itemCount: String,
     ) {
-        val updatedItem =
-            getUpdatedItemEntry(itemId, itemName, itemPrice, itemCount)
+        val updatedItem = getUpdatedItemEntry(itemId, itemName, itemPrice, itemCount)
         updateItem(updatedItem)
     }
 }
@@ -122,6 +123,7 @@ class InventoryViewModel(private val itemDao: ItemDao) : ViewModel() {
  * Factory class to instantiate the [ViewModel] instance.
  */
 class InventoryViewModelFactory(private val itemDao: ItemDao) : ViewModelProvider.Factory {
+
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(InventoryViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST") return InventoryViewModel(itemDao) as T
